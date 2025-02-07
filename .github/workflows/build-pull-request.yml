@@ -18,7 +18,7 @@ jobs:
         id: build
         with:
           showyourwork-spec: git+https://github.com/showyourwork/showyourwork
-        uses: showyourwork/showyourwork-action@main
+        uses: HealthyPear/showyourwork-action@update-artifact-action
         env:
           SANDBOX_TOKEN: ${{ secrets.SANDBOX_TOKEN }}
           OVERLEAF_TOKEN: ${{ secrets.OVERLEAF_TOKEN }}
